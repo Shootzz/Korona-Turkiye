@@ -8,6 +8,7 @@ test_sayi=$(curl -s https://covid19.saglik.gov.tr/ | grep  "buyuk-bilgi-l-sayi" 
 
 iyilesen=$(curl -s https://covid19.saglik.gov.tr/ | grep -A2 "BUGÜNKÜ<br>İYİLEŞEN" | grep '">' | cut -d "<" -f2 | cut -d ">" -f2)
 
+printf "Created by Burak Can\nGithub: github.com/Shootzz\n\n"
 printf -v ay "%(%B)T"
 
 printf " Vaka sayısı : $vaka\n Tarih       : $gun $ay\n Test sayısı : $test_sayi\n İyileşen sayısı : $iyilesen\n"
