@@ -8,4 +8,5 @@ API bazı bilgileri verse bile kullanım amacıma tam olarak uygun olmadığı v
 
 ## Gereksinimler & Nasıl çalışır?
 Linux kullanıyorsanız, corona.sh script'ini terminaliniz de çalıştırarak kullanabilirsiniz fakat Windows'da kullanmak istiyorsanız, bilgisayarınıza bash yüklemeniz gerekmektedir. 
+
 Yazdığım batch script, Windows'daki "bash" komutunu kullanarak "corona.sh" script'ini çalıştırır bu sayede bash yüklü olduğu sürece spesifik olarak Linux kullanmadan da bu script'i kullanabilirsiniz. (Batch scriptin gösterimi güzelleştirildi) 
