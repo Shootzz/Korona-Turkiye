@@ -1,12 +1,12 @@
 #!/bin/bash
 
-vaka=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=liste | cut -d "," -f3 | cut -d '"' -f4)
+vaka=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=sondurum | cut -d "," -f3 | cut -d '"' -f4)
 
-gun=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=liste | cut -d "." -f1 | grep -o '..$')
+gun=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=sondurum | cut -d "." -f1 | grep -o '..$')
 
-test_sayi=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=liste | cut -d "," -f2 | cut -d '"' -f4)
+test_sayi=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=sondurum | cut -d "," -f2 | cut -d '"' -f4)
 
-iyilesen=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=liste | cut -d "," -f5 | cut -d '"' -f4)
+iyilesen=$(curl -s https://covid19.saglik.gov.tr/covid19api?getir=sondurum | cut -d "," -f5 | cut -d '"' -f4)
 
 printf "Created by Burak Can\nGithub: github.com/Shootzz\n\n"
 printf -v ay "%(%B)T"
