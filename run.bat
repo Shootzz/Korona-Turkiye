@@ -10,6 +10,7 @@ echo                                                                            
 echo                                                                            ^|___/    
 echo	Github: github.com/shootzz
 echo.
+echo.
 koronabilgi.exe
 echo. 
 echo.
