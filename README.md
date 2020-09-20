@@ -1,5 +1,5 @@
 ## Korona-Turkiye-Bilgi
-T.C. Sağlık Bakanlığının açıkladığı korona virüsü vakalarının tek tuşla görüntülenmesi ve verinin bilgisayarınız da tutulmasını sağlayan, Windows'un batch script'i ile entegre edilmiş bir shell script.
+T.C. Sağlık Bakanlığının açıkladığı korona virüsü vakalarının tek tuşla görüntülenmesi ve verinin bilgisayarınız da tutulmasını sağlayan, Windows 10 ve Linux de çalıştırılabilir aynı zamanda Windows'un batch script'i ile entegre edilmiş bir shell script. 
 
 ## Amaç
 Karantina da bulunduğumuz dönemlerde, Türkiye'deki korona vakalarının bilgisayarımda kolay bir şekilde ulaşılması ve verilerin tutulması için yazmış olduğum ve kişisel olarak kullandığım bir bash/batch script'tir.
