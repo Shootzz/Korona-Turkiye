@@ -18,6 +18,6 @@ Karantina da bulunduğumuz dönemlerde, Türkiye'deki korona vakalarının bilgi
 
 Bilgisayarınız da "Bash" yüklü ise "corona.sh" ve "korona.bat" dosyalarını indirip sadece "korona.bat" dosyasını çalıştırın.
 
-### Script'in çalışırkenki görüntüsü :
+### Script'in çalışırken ki görüntüsü :
 
 ![iamge](https://github.com/Shootzz/Korona-Turkiye-Bilgi/blob/master/image.JPG)
