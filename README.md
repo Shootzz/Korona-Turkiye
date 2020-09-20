@@ -14,7 +14,7 @@ Karantina da bulunduğumuz dönemlerde, Türkiye'deki korona vakalarının bilgi
 
 "koronabilgi.exe" ve "run.bat" dosyalarını indirip aynı klasöre koyun, aşağıdaki SS'deki gibi görünüm almak istiyorsanız "run.bat" dosyasını çalıştırın, eğer direkt olarak oluşturulan "vakalar.txt" dosyasından bakmak istiyorsanız, "koronabilgi.exe" dosyasını çalıştırabilirsiniz böylece konsol açılmadan veriler dosyaya yazılır.
 
-### Windows with Bash being installed :
+### Windows with Bash :
 
 Bilgisayarınız da "Bash" yüklü ise "corona.sh" ve "korona.bat" dosyalarını indirip sadece "korona.bat" dosyasını çalıştırın.
 
