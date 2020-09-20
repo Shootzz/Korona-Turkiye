@@ -5,6 +5,19 @@ T.C. Sağlık Bakanlığının açıkladığı korona virüsü vakalarının tek
 Karantina da bulunduğumuz dönemlerde, Türkiye'deki korona vakalarının bilgisayarımda kolay bir şekilde ulaşılması ve verilerin tutulması için yazmış olduğum ve kişisel olarak kullandığım bir bash/batch script'tir.
 
 ## Gereksinimler & Nasıl çalışır?
-Linux kullanıyorsanız, corona.sh script'ini terminaliniz de çalıştırarak kullanabilirsiniz fakat Windows'da kullanmak istiyorsanız, bilgisayarınıza bash yüklemeniz gerekmektedir. 
+### Linux :
 
-Yazdığım batch script, Windows'daki "bash" komutunu kullanarak "corona.sh" script'ini çalıştırır bu sayede bash yüklü olduğu sürece spesifik olarak Linux kullanmadan da bu script'i kullanabilirsiniz. (Batch scriptin gösterimi güzelleştirildi) 
+"Corona.sh" script'ini indirip terminaliniz de çalıştırarak kullanabilirsiniz. 
+
+
+### Windows :
+
+"koronabilgi.exe" ve "run.bat" dosyalarını indirip aynı klasöre koyun, aşağıdaki SS'deki gibi görünüm almak istiyorsanız "run.bat" dosyasını çalıştırın, eğer direkt olarak oluşturulan "vakalar.txt" dosyasından bakmak istiyorsanız, "koronabilgi.exe" dosyasını çalıştırabilirsiniz böylece konsol açılmadan veriler dosyaya yazılır.
+
+### Windows with Bash being installed :
+
+Bilgisayarınız da "Bash" yüklü ise "corona.sh" ve "korona.bat" dosyalarını indirip sadece "korona.bat" dosyasını çalıştırın.
+
+### Script'in çalışırkenki görüntüsü :
+
+![iamge](https://github.com/Shootzz/Korona-Turkiye-Bilgi/blob/master/image.JPG)
